@@ -7,7 +7,7 @@
  *
  * Return: changed array with new value for n bytes
  */
-char *_memeset(char *s, char b, unsigned iint n)
+char *_memeset(char *s, char b, unsigned int n)
 {
 	int i = 0;
 
@@ -16,5 +16,5 @@ char *_memeset(char *s, char b, unsigned iint n)
 		s[i] = b;
 		n--;
 	}
-	return (s)
+	return (s);
 }
